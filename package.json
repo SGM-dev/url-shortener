@@ -1,0 +1,29 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "This NodeJS app shortens URLs and tracks its usage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SGM-dev/url-shortener.git"
+  },
+  "author": "Sam George Mathew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SGM-dev/url-shortener/issues"
+  },
+  "homepage": "https://github.com/SGM-dev/url-shortener#readme",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nanoid": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
